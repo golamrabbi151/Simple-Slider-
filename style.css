@@ -5,7 +5,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	max-width: 100%;
-	height: 400px;
+	height: 550px;
 	text-align: center;
 	color: green;
 }
@@ -23,7 +23,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	max-width: 100%;
-	height: 400px;
+	height: 550px;
 	text-align: center;
 	color: green;
 }
@@ -36,7 +36,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	max-width: 100%;
-	height: 400px;
+	height: 550px;
 	text-align: center;
 	color: green;
 }
@@ -48,4 +48,32 @@
 .carousel_inner_div h1{
 	font-weight: bold;
 	font-size: 79px;
+	padding-bottom: 20px;
+}
+.carousel_inner_div a{
+	font-size: 30px;
+}
+
+@media only screen and (max-width: 600px){
+	.carousel_inner_div{
+	padding-top: 40%;
+	color:white;
+
+}
+.carousel_inner_div h1{
+	font-weight: bold;
+	font-size: 45px;
+}
+.carousel_inner_div a{
+	font-size: 20px;
+}
+.carousel_1{
+	height: 550px;
+}
+.carousel_2{
+	height: 550px;
+}
+.carousel_3{
+	height: 550px;
+}
 }
